@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #302C2D;
+    color: #F1EFDD;
+}
+
+
+
+
+#wrapper {
+    width: 960px;
+    height: auto;
+    margin: auto;
+    
+}
+
+h1 {
+    padding-top: 35px;
+    padding-right: 2em;
+    font-style: italic;
+}
+
+header {
+    background-image:url("pictures/pizza.jpg");
+    background-position: right;
+    height: 150px;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 2px solid #D3AA7C;
+    background-color: #4A4946;
+}
+
+nav {
+    float:left;
+    width: 170px;
+    text-align: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #F1EFDD;
+    
+}
+
+nav li:hover {
+    background-color: #D3AA7C;
+}
+
+nav li {
+    list-style: none;
+    border: 2px solid #D3AA7C;
+    padding: 5px 5px 5px 5px;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #4A4946;
+    font-size: 1em;
+    text-align: center;
+    font-style: italic;
+    padding: 1em;
+    margin-top: 20px;
+}
+
+
+
+.floatleft {
+    float: left;
+    margin-right: 4em;
+}
+
+main {
+    padding-right: 2em;
+    padding-left: 3em;
+    margin-left: 170px;
+    padding-top: 1em;
+
+}
+
+#text {
+    margin-left: 50%;
+    margin-top: -170px;
+    margin-bottom: 10%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #D3AA7C;
+}
+
+header, nav, main, footer {
+    display: block;
+}
+
+.underline {
+    border-bottom: 2px solid #D3AA7C;
+}
+
+
+table {
+    border: 2px solid #D3AA7C;
+    border-spacing: 0;
+    margin:auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+}
+
+tr {
+    border: 2px solid #D3AA7C;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #4A4946;
+} 
+
+caption {
+    font: 120% bold;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+label {
+    display:block;
+    margin-bottom: 5px;
+}
+
+input {
+    display: block;
+    
+    margin-bottom: 1em;
+}
+
+fieldset {
+    width: 320px;
+    margin-bottom: 5px;
+}
+
+fieldset label {
+    float: left;
+    clear: left;
+    text-align: right;
+    padding-right: 10px;
+    width: 100px;
+}
+
+select {
+    display: block;
+}
+
+
+.buttons {
+    display:inline-block;
+    margin-top: 20px;
+}

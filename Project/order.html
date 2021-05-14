@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link type="text/css" rel="stylesheet" href="project.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herbst Pizza</title>
+
+</head>
+
+
+
+<body>
+
+<div id="wrapper">
+
+    <header>
+        <h1>Herbst Pizza</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Order Form</h1>
+
+        <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+            <label for="First Name">First Name:</label>
+            <input name="First Name" type="text" size=20 required="required">
+            <label for="Last Name">Last Name:</label>
+            <input name="Last Name" type="text" size=20 required="required">
+            <label id="email" for="Email">E-mail:</label>
+            <input name="Email"  type="email" size= 35 required="required"></textarea>
+            
+        
+    
+        <fieldset>
+            <legend>Choose A Crust</legend>
+            <label for="Regular">Regular</label>
+            <input type="checkbox" name="Crust" id="regular" value="Regular">
+            <label id="stuffed" for="Stuffed">Stuffed</label>
+            <input type="checkbox" name="Crust" id="stuffed" value="Regular"> 
+            <label id="deep" for="Deep">Deep Dish</label>
+            <input type="checkbox" name="Crust" id="deep" value="yes"> 
+        </fieldset>
+
+       <fieldset>
+            <legend>Choose Your Topping/s</legend>
+            <label class="check" for="pepperoni">Pepperoni</label>
+            <input type="radio" name="Topping" id="pepperoni" value="pepperoni">
+            <label class="check" id="sausage" for="sausage">Sausage</label>
+            <input type="radio" name="Topping" id="sausage" value="sausage">
+            <label class="check" id="hawaiian" for="hawaiian">Hawaiian</label>
+            <input type="radio" name="Topping" id="hawaiian" value="hawaiian">
+            <label class="check" id="cheese" for="cheese">Cheese</label>
+            <input type="radio" name="Topping" id="cheese" value="cheese">
+        </fieldset><br> 
+    
+        <fieldset>
+            <legend>Choose A Side</legend>
+            <label class="check" for="reg">Regular</label>
+            <input type="radio" name="Side" id="reg" value="Regular">
+            <label class="check" id="caesar" for="caesar">Caesar</label>
+            <input type="radio" name="Side" id="caesar" value="Caesar Salad">
+            <label class="check" id="None" for="None">None</label>
+            <input type="radio" name="Side" id="None" value="None">
+        </fieldset><br>
+    
+    
+        <legend>Delivery or Pick-up?</legend><br>
+        <select size="1" name="Option" id="list">
+            <option value="delivery">Delivery</option>
+            <option value="pickup">Pick-up</option>
+        </select>
+    
+    
+        <input class="buttons" id="Submit" type="submit" value="Submit">
+    
+        <input  class="buttons" id="Reset" type="reset" value="Cancel">
+    
+    
+    </form>
+    
+    
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>Copyright &copy; 2020 Trinity Herbst</p>
+        <a href="mailto:th545770@southeast.edu">trinity@herbst.com</a>
+    </footer>
+
+</div>
+</body>
+
+
+
+
+
+</html>
